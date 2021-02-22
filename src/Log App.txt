@@ -1,0 +1,37 @@
+1. Rendering Variabel Pada Komponen
+
+Location App.js
+import Hello from "./Hello";
+import Article from "./Article";
+import Rendering from "./component/Rendering";
+import Conditional from "./component/Conditional";
+import List from "./component/List";
+import { users } from "./data/User";
+import Table from "./component/Table";
+
+<Hello name="world" />
+<Article userLogin="sudah login" />
+<Rendering />
+<Conditional />
+<List users={users} />
+<Table users={users} />
+
+2. Event 
+import BlueButton from "./event/BlueButton";
+import ButtonHandle from "./event/ButtonHandle";
+import Allevent from "./event/Allevent";
+
+function info() {
+    alert("Hello World");
+}
+
+<ButtonHandle />
+<Allevent />
+<BlueButton onCustomClick={info} caption="Tampilkan Info" />
+
+3. State
+import Counter from "./state/Counter";
+
+<Counter />
+
+4. Menangani Form
