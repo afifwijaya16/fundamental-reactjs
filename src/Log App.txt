@@ -35,3 +35,32 @@ import Counter from "./state/Counter";
 <Counter />
 
 4. Menangani Form
+
+import ControlledForm from "./form/ControlledForm";
+import FormBasicValidation from "./form/FormBasicValidation";
+import FormInput from "./form/FormInput";
+import FormMultiple from "./form/FormMultiple";
+import UncontrolledForm from "./form/UncontrolledForm";
+
+
+<UncontrolledForm />
+<ControlledForm />
+<FormInput />
+<FormMultiple />
+<FormBasicValidation />
+
+5.ekspolarasi komponen
+<Hello name="Afif" />
+<Button title="hello" />
+
+import Hello from "./props/Hello";
+import Button from "./props/Button";
+
+6. styling komponen
+import ButtonStyle from "./style/ButtonStyle";
+import Style from "./style/Style";
+
+<Style />
+<ButtonStyle>
+    <p>Haloo</p>
+</ButtonStyle>
